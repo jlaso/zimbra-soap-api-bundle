@@ -1,0 +1,67 @@
+{
+    "hash": "d084e738950aac268ad479daf2878106",
+    "packages": [
+        {
+            "name": "symfony/validator",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Validator",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Validator",
+                "reference": "935d8689a252ba615e211c3c52956423d09f8042"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Validator/archive/935d8689a252ba615e211c3c52956423d09f8042.zip",
+                "reference": "935d8689a252ba615e211c3c52956423d09f8042",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/http-foundation": "2.1.*",
+                "symfony/locale": "2.1.*",
+                "symfony/yaml": "2.1.*"
+            },
+            "suggest": {
+                "doctrine/common": ">=2.1,<2.4-dev",
+                "symfony/http-foundation": "2.1.*",
+                "symfony/yaml": "2.1.*"
+            },
+            "time": "2012-12-12 13:03:58",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Validator": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Validator Component",
+            "homepage": "http://symfony.com"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "symfony/validator": 20,
+        "mockery/mockery": 20
+    }
+}
