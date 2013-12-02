@@ -1,28 +1,26 @@
 {
     "name": "jlaso/zimbra-soap-api-bundle",
-    "type": "library",
+    "type": "bundle",
     "description": "Bundle to communicate with Zimbra ZCS servers through soap api",
     "homepage": "https://github.com/jlaso/zimbra-soap-api-bundle",
     "keywords": ["zimbra", "zcs"],
     "license": "GPLv3",
     "authors": [
         {
+            "name"  : "Joseluis Laso",
+            "email" : "jlaso@joseluislaso.es"
+        },
+        {
             "name"  : "Chris Ramakers",
             "email" : "chris@nucleus.be"
         },{
             "name"  : "Libersoft",
             "email" : "info@libersoft.it"
-        },{
-            "name"  : "Joseluis Laso",
-            "email" : "jlaso@joseluislaso.es"
         }
     ],
     "require": {
         "php"               : ">=5.3.2",
         "symfony/validator" : "*"
-    },
-    "require-dev": {
-        "mockery/mockery"   : "dev-master"
     },
     "autoload": {
         "psr-0": {

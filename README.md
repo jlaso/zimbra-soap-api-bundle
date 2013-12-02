@@ -31,7 +31,7 @@ This Bundle is based in the work of Chris Ramakers, see original repo on https:/
         jlaso_zimbra_soap_api:
             server: localhost
             port: 7071
-            user: admin
+            username: admin
             password: "adminpassword"
             debug: true
     ```
