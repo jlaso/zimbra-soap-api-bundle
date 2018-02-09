@@ -4,7 +4,7 @@
     "description": "Bundle to communicate with Zimbra ZCS servers through soap api",
     "homepage": "https://github.com/jlaso/zimbra-soap-api-bundle",
     "keywords": ["zimbra", "zcs"],
-    "license": "GPLv3",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name"  : "Joseluis Laso",
